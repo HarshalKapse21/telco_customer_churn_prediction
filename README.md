@@ -105,19 +105,6 @@ Explore interactive Power BI visualizations designed to enhance data exploration
 | Gain a high-level view of customer churn trends, contract preferences, and revenue impact. This interactive dashboard provides insights into overall churn metrics and key business indicators. | Explore detailed analytics on customer segments, service usage patterns, and churn predictors. This visualization offers a deeper dive into specific data points and trends influencing churn decisions. |
 
 
-
-
-
-
-<p align="center">
-  <a href="https://app.powerbi.com/links/t0l3Kk1rqd?ctid=a2e8c89e-7534-4ccf-b1fa-00c12005cb9d&pbi_source=linkShare">
-    <img src="https://img.shields.io/badge/Power%20BI-Live%20Dashboard-gold?style=for-the-badge&logo=powerbi" alt="Power BI Dashboard">
-  </a>
-</p>
-
-
-*Explore the live Power BI dashboard for real-time insights, dynamic data visualization, and comprehensive analytics. Gain actionable intelligence to drive informed decision-making and optimize business performance.*
-
 ---
 
 ## Key Findings
@@ -147,8 +134,8 @@ Explore interactive Power BI visualizations designed to enhance data exploration
 - **Clone the Repository**
 
   ```` 
-   git clone https://github.com/HarshalKapse21/telecom-customer-churn-prediction
-   cd Telecom-Customer-Churn-Prediction
+   git clone https://github.com/HarshalKapse21/teleco_customer_churn_attrition_prediction.git
+   cd teleco-customer-churn-attrition-prediction
    ````
 
 - Install the project dependencies by running the following command
@@ -171,52 +158,44 @@ Explore interactive Power BI visualizations designed to enhance data exploration
    - Fine-tune models based on performance metrics to optimize predictions.
 
 ---
-
 ## Running the Project
 
-- **Start the Application:** Execute the following command to run the project.
+To run the Telecom Customer Churn Prediction project locally, use Streamlit.
 
-   ```bash
-   python app.py
-   ```
+### Start the Application
 
-**After you have successfully installed and launched the project, you can utilize it to forecast customer churn. Follow these steps to begin:**
+Open the terminal or Git Bash inside the project folder and run the following command:
 
-- **Access the Web Interface:** Open your web browser and navigate to:
+```bash
+streamlit run app.py
 
-   ```
-   http://127.0.0.1:5000/
-   ```
+### Deployment Steps
 
-**Upon accessing the interface, you'll encounter a user-friendly web application. Take time to familiarize yourself with its features and explore the various options available for predicting outcomes.**
+**Select a Hosting Service:**  
+For this project, I used **Streamlit Community Cloud** because it is simple, free, and suitable for deploying machine learning web applications.
 
+**Create a Streamlit Cloud Account:**  
+I signed in to Streamlit Cloud using my GitHub account.
 
-| Details | Prediction |
-|---------|---------|
-| ![Image 1](https://github.com/virajbhutada/Telecom-Customer-Churn-Prediction-ML-PowerBI/assets/143819712/9666462b-b639-4ba4-8739-ad43b9ae80f5) | ![Image 2](https://github.com/virajbhutada/Telecom-Customer-Churn-Prediction-ML-PowerBI/assets/143819712/25373380-8e11-4b4e-9673-651b0dd90f90) |
+**Upload Project to GitHub:**  
+The complete project files were uploaded to a GitHub repository, including:
+- `app.py`
+- `requirements.txt`
+- `models/random_forest_model.pkl`
+- `models/standard_scaler.pkl`
+- `models/label_encoder.pkl`
 
+**Prepare for Deployment:**  
+The `requirements.txt` file was added to include all required Python libraries such as Streamlit, pandas, numpy, and scikit-learn.
 
+**Deploy the Project:**  
+On Streamlit Cloud, I selected my GitHub repository, chose the `main` branch, and set the main file path as `app.py`.
 
-- **Input Customer Data:** Refer to the on-screen instructions for guidance on entering customer data into the system. Once entered, explore the prediction feature to forecast churn outcomes based on the data provided.
-  
-- **Analyze Results:** Review the prediction outcomes to gather insights and formulate strategies, such as designing targeted promotions, and effectively applying the project to specific scenarios, such as implementing enticing customer offers.
-  
----
+**Access the Deployed Application:**  
+After deployment, Streamlit Cloud generated a public application URL that can be used to access and interact with the Telecom Customer Churn Prediction web app.
 
-## Deployment Steps
-
-- **Select a Hosting Service:** Choose a reputable hosting platform such as Heroku, AWS, Azure, or PythonAnywhere.
-
-- **Create an Account:** If you haven't already, Register an account on your chosen hosting platform.
-
-- **Prepare for Deployment:** Ensure your project complies with the hosting service's requirements, including configuration files and dependencies.
-
-**Deploy Your Project:** Launch your project using the deployment tools or instructions provided by the hosting platform.
-
-**Access Your Deployed Application:** To interact with your deployed application, Visit the URL provided by the hosting platform.
-
-For comprehensive deployment guidelines tailored to your selected hosting service, consult their official documentation. Experience the deployed [version](https://coral-maurita-35.tiiny.site) of the Telecom Churn Prediction project!
-
+**Deployed Application:**  
+[Telecom Customer Churn Prediction App](PASTE_YOUR_STREAMLIT_APP_LINK_HERE)
 
 ### Dataset Usage:
 
