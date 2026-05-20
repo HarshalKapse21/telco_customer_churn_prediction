@@ -197,7 +197,10 @@ On Streamlit Cloud, I selected my GitHub repository, chose the `main` branch, an
 After deployment, Streamlit Cloud generated a public application URL that can be used to access and interact with the Telecom Customer Churn Prediction web app.
 
 **Deployed Application:**  
-[Telecom Customer Churn Prediction App](PASTE_YOUR_STREAMLIT_APP_LINK_HERE)
+st.link_button(
+    "Teleco_customer_churn_attrition_app",
+    "https://harshalkapse21-telecom-customer-churn-attrition-pred-app-pcphb6.streamlit.app/#prediction-result"
+)
 
 ### Dataset Usage
 
