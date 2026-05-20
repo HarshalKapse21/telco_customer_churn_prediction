@@ -166,8 +166,10 @@ To run the Telecom Customer Churn Prediction project locally, use Streamlit.
 
 Open the terminal or Git Bash inside the project folder and run the following command:
 
+
 ```bash
 streamlit run app.py
+```
 
 ### Deployment Steps
 
@@ -197,17 +199,15 @@ After deployment, Streamlit Cloud generated a public application URL that can be
 **Deployed Application:**  
 [Telecom Customer Churn Prediction App](PASTE_YOUR_STREAMLIT_APP_LINK_HERE)
 
-### Dataset Usage:
+### Dataset Usage
 
-1. Load the dataset using your preferred programming environment (e.g., Python with Pandas).
+1. Load the dataset using Python with Pandas.
 2. Explore and analyze the dataset attributes and patterns.
-3. Utilize the dataset for Telco Customer Churn Classification analysis.
-
-Feel free to adapt the above steps based on your specific use case and programming environment.
+3. Use the dataset for Telco Customer Churn Classification analysis.
 
 ---
 
-### Connect With Me 
+### Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Harshal%20Kapse-blue?logo=linkedin)](https://www.linkedin.com/in/harshal-kapse-0b4331260/) 
-[![GitHub](https://img.shields.io/badge/GitHub-Harshal%20Kapse-2b3137?logo=github)](https://github.com/HarshalKapse21/telecom-customer-churn-prediction)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Harshal%20Kapse-blue?logo=linkedin)](https://www.linkedin.com/in/harshal-kapse-0b4331260/)  
+[![GitHub](https://img.shields.io/badge/GitHub-Harshal%20Kapse-2b3137?logo=github)](https://github.com/HarshalKapse21/telco_customer_churn_prediction)
